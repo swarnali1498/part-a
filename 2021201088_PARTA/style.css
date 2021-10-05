@@ -1,0 +1,125 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    background: url("img/bg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.navbar{
+    top:0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(7, 7, 90);
+    padding: 20px 40px 20px 40px;
+}
+.navbar-contents{
+    padding: 15px 20px;
+    color:white;
+    font-size: 20px;
+}
+#home{
+    height: 60%;
+    display: block;
+    color: white;   
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 80px;
+    font-style: italic;
+}
+.clg{
+    font-size: 50px;
+}
+#about_me{
+    height: 70%;
+    background-color: honeydew;
+    display: none;
+    margin: 35px 50px 30px 50px;
+    padding: 25px 30px 25px 50px;
+}
+.float-child1{
+    width: 25%;
+    float: left;
+    padding-right: 50px;
+}
+.float-child2{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.profile{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.para{
+    font-style: italic;
+}
+#education{
+    height: 100%;
+    background-color: honeydew;
+    display: none;
+    margin: 35px 50px 30px 50px;
+    padding: 30px 30px 25px 50px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th{
+    font-size: large;
+}
+#projects{
+    height: 70%;
+    background-color: honeydew;
+    display: none;
+    margin: 35px 50px 30px 50px;
+    padding: 30px 30px 25px 50px;
+}
+#experience{
+    height: 70%;
+    background-color: honeydew;
+    display: none;
+    margin: 35px 50px 30px 50px;
+    padding: 30px 30px 25px 50px;
+}
+.fab{
+    font-size: 50px;
+    margin: 0px 80px 0px 80px;
+}
+.fa{
+    font-size: 50px;
+    margin: 0px 80px 0px 80px;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.fa-github{
+    background: white;
+    color: black;
+}
+.fa-envelope-open{
+    background: white;
+    color: #007bb5;
+}
+.fa-mobile-alt{
+    background: white;
+    color:black
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px 10px 50px;
+    background: #f2db55;
+}
+#time
+{
+    color: white;
+    float: right;
+    font-size: 20px;
+    padding-right: 50px;
+}
